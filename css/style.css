@@ -5,7 +5,7 @@
 }
 
 html{
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Fredoka', sans-serif;
 }
 
 img{
@@ -20,18 +20,19 @@ img{
 }
 
 .section-title{
-    font-size: 36px;
-    font-weight: 400;
+    font-size: 40px;
+    font-weight: 700;
     color: #E53170;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .section-describe{
-    font-weight: 100;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .row{
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
 .column{
@@ -73,18 +74,19 @@ img{
 .card-name{
     font-size: 18px;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .card-work-position, 
 .card-email,
 .card-name{
     color: white;
-    font-weight: 100;
 }
 
 .card-work-position, 
 .card-email{
     display: block;
+    font-weight: 400;
 }
 
 .card-work-position{
