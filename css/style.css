@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
-html{
+h2{
     font-family: 'Fredoka One', cursive;
+}
+
+img{
+    max-width: 100%;
 }
 
 .container{
@@ -23,14 +27,13 @@ html{
 }
 
 .row{
-    background-color: aqua;
     padding-top: 40px;
 }
 
 .column{
-    background-color: #E53170;
+    background-color: #1b191a;
     width: 30%;
-    height: 90px;
+    height: 100px;
     float: left;
     margin-right: 5%;
 }
@@ -41,4 +44,47 @@ html{
 
 .column:nth-of-type(3n+3){
     margin-right: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card-left, .card-right{
+    float: left;
+}
+
+.card-right{
+    padding: 15px;
+    text-align: left;
+}
+
+.card-thumbnail{
+    height: 100px;
+}
+
+.card-name{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.card-work-position, 
+.card-email,
+.card-name{
+    color: white;
+}
+
+.card-work-position, 
+.card-email{
+    display: block;
+}
+
+.card-work-position{
+    padding: 5px 0;
+}
+
+.card-email{
+    color: rgb(69, 193, 250);
 }
